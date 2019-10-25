@@ -1,0 +1,351 @@
+
+
+.content_block:first-child {
+    border-top: 0;
+}
+.content_block {
+    z-index: 9;
+}
+.clearfix {
+    zoom: 1;
+}
+.content_block {
+    padding: 0 10px;
+    width: 1060px;
+    /* margin: auto; */
+    position: relative;
+    z-index: 1;
+}
+
+
+/**/
+section.content.left {
+    float: left;
+    width: 740px;
+    margin: 0 19px 0 10px;
+    padding-right: 20px;
+}
+
+section.content {
+    padding: 0;
+    width: 100%;
+}
+
+/**/
+.content.left .row, .content.right .row {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.dt-ceo {
+    padding: 0 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.imgeffect.alignleft, .entry-thumbnail.alignleft, img.alignleft {
+    float: left;
+    margin: 6px 20px 6px 0;
+    
+    border: 0;
+    background: none;
+    padding: 0;
+    display: block;
+    max-width: 100%;
+}
+
+.alignright {
+    
+    display: inline;
+}
+
+blockquote {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 6px 0 15px;
+    padding: 20px 40px;
+    position: relative;
+    background: #F9F9F9;
+    display: inline-block;
+}
+
+blockquote.pullquote.alignright {
+    margin-left: 20px;
+}
+
+blockquote p:first-child:before {
+    content: "\f10d";
+    font-family: "fontello";
+    font-size: 22px;
+    position: absolute;
+    color: #ccc;
+    left: 8px;
+    top: 6px;
+}
+
+blockquote p:last-child:after {
+    content: "\f10e";
+    font-family: 'fontello';
+    font-size: 22px;
+    position: absolute;
+    color: #ccc;
+    bottom: 2px;
+    right: 10px;
+}
+
+.dt-right02 blockquote {
+    width: 48%;
+    padding: 38px 40px;
+}
+
+.dt-right02 blockquote, .dt-right02 p {
+    float: left;
+}
+
+.box {
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: inline;
+    /* float: left; */
+    /* border: 0; */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dt-left ul {
+    margin-left: -40px;
+}
+
+.dt-right ul{
+    margin-left: -40px;
+}
+
+
+/*BOX CONTENT*/
+.sidebar {
+    width: 260px;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+
+.sidebar .widget {
+    float: none;
+    clear: both;
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 30px 20px 20px;
+    -o-box-shadow: 0 4px 0 rgba(0,0,0,0.04);
+    -webkit-box-shadow: 0 4px 0 rgba(0,0,0,0.04);
+    -moz-box-shadow: 0 4px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 4px 0 rgba(0,0,0,0.04);
+    border: 1px solid #EDEDED;
+    width: 330px;
+}
+
+.form-loan {
+    width: 100%;
+    /* float: left; */
+}
+
+.calculator-loan .wpcf7-submit, .form-loan .wpcf7-submit {
+    float: none;
+    background: #f5811f;
+    text-shadow: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.loans-block p, .loan-page p {
+    width: 100%;
+    /* float: left; */
+    /* font-size: 12px; */
+    text-align: justify;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.form-loan ul li {
+    list-style: none;
+    width: 100%;
+    /* float: left; */
+    margin-bottom: 5px;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+span.wpcf7-list-item {
+    display: inline-block;
+     margin: 0 0 0 1em; 
+}
+
+.loans-block h3, .loan-page h3 {
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: bold !important;
+    color: #043b72;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px;
+    font-weight: normal;
+    line-height: 140%;
+    color: #666;
+    margin: 0;
+}
+
+form p {
+    margin-left: -15px;
+}
+
+/*INPUT */
+
+.rt_form input[type="text"], .rt_form input[type="email"], .rt_form select, .rt_form textarea, .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 select, .wpcf7 textarea, .rt_form input[type="date"], .wpcf7 input[type="date"], .rt_form input[type="tel"], .wpcf7 input[type="tel"], .rt_form input[type="number"], .wpcf7 input[type="number"], .rt_form input[type="url"], .wpcf7 input[type="url"] {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 12px;
+    position: relative;
+    outline: none;
+    padding: 8px;
+    border-radius: 0!important;
+    color: #666;
+    background: #fff;
+    width: 100%;
+    -moz-border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-box-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.form-loan input[type="text"], .form-loan input[type="tel"], .form-loan input[type="email"], .form-loan select {
+    border: 1px solid #CCC;
+}
+.rt_form input[type="url"], .wpcf7 input[type="url"], .rt_form input[type="number"], .wpcf7 input[type="number"], .rt_form input[type="tel"], .wpcf7 input[type="tel"], .rt_form input[type="date"], .wpcf7 input[type="date"] {
+    width: auto;
+    max-width: 100%;
+}
+.rt_form input[type="text"], .rt_form input[type="email"], .rt_form select, .rt_form textarea, .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 select, .wpcf7 textarea, .rt_form input[type="date"], .wpcf7 input[type="date"], .rt_form input[type="tel"], .wpcf7 input[type="tel"], .rt_form input[type="number"], .wpcf7 input[type="number"], .rt_form input[type="url"], .wpcf7 input[type="url"] {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 12px;
+    position: relative;
+    outline: none;
+    padding: 14px 8px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #8C8C8C;
+    border: 1px solid #eee;
+    background: #fff;
+    -moz-box-box-shadow: inset 0 0 0 1px #fff,1px 2px 0 #eee;
+    -webkit-box-shadow: inset 0 0 0 1px #fff, 1px 2px 0 #eee;
+    box-shadow: inset 0 0 0 1px #fff, 1px 2px 0 #eee;
+    width: 100%;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*LOAN*/
+
+.calculator-loan ul li b {
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    width: 100%;
+    float: left;
+}
+
+.loan-page ul li b {
+    font-size: 13px;
+}
+
+.calculator-loan ul li {
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin: 18px 0;
+}
+
+.loan-page ul li {
+    margin: 0 0 5px 0;
+}
+
+.calculator-loan ul {
+    margin: 0;
+}
+
+.loan-page ul li input[type="text"], .loan-page ul li select {
+    width: 100%;
+    padding: 6px;
+}
+
+.calculator-loan input[type="text"], .calculator-loan ul li select {
+    border: 1px solid #CCC;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.calculator-load ul {
+    margin-left: -40px;
+}
+
+.calculator-loan .wpcf7-submit, .form-loan .wpcf7-submit {
+    float: none;
+    background: #f5811f;
+    text-shadow: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.rt_form input[type="button"], .rt_form input[type="submit"], .wpcf7-submit {
+    padding: 10px 20px;
+    border: 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+    -moz-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+    color: #777;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.08) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.08)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.08) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.08) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.08) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.08) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#21000000',GradientType=0);
+}

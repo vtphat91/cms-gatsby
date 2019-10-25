@@ -1,0 +1,108 @@
+#footer {
+    background: #0d2d4f;
+    width: 100%;
+    float: left;
+}
+
+#footer .footer_info {
+    padding: 0;
+}
+
+footer .footer_info {
+    margin: 0 auto;
+    width: 1040px;
+    position: relative;
+    display: block;
+    padding: 10px 0 60px;
+}
+
+footer, #footer {
+    color: #A9A9A9;
+}
+
+#footer .part1 {
+    width: 100%;
+}
+
+.footer .logoFooter img {
+    width: 100%;
+}
+.dtCopyright, .footer {
+    padding: 0px 111.7px 0px 111.7px;
+    box-sizing: border-box;
+}
+
+footer .part1 {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    display: block;
+    font-size: 12px;
+    line-height: 180%;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+}
+
+.footer .copyRight {
+    float: left;
+    color: #fff!important;
+    font-size: 12px!important;
+    margin-top: 20px;
+}
+
+
+.footer .logoFooter {
+    float: right;
+    text-align: right;
+    width: 270px;
+   
+}
+
+.copyRight li {
+    display: inline;
+    padding: 8px;
+}
+
+.copyRight p a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+.copyRight ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fixedRight {
+    position: fixed;
+    bottom: 40%;
+    right: -155px;
+    padding: 15px;
+    background: #f58220;
+    z-index: 99;
+    border-radius: 5px 0 0 5px;
+}
+
+.fixedRight li {
+    padding-left: 50px;
+    list-style-type: none;
+    height: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.fixedRight li:nth-child(2) {
+    background: url(https://mafc.com.vn/wp-content/uploads/2019/05/bangtinh.png) no-repeat;
+    background-size: 35px;
+}
