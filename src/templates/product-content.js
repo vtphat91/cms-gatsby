@@ -47,14 +47,14 @@ const ProductContent = ({data}) => {
 
   */
     const boxContent = get(data, 'contentfulBoxContentBodyTextNode.childMarkdownRemark');
-    console.log('boxContent',boxContent);
+   
     const post = get(data, 'contentfulNavigationChild.productContentRefer');
     return (
 
       <Layout>
         <section className="content_block clearfix wrapper">
             <section className="content left">
-              <h2 className="section-headline">{post.title}</h2>
+              <h2 className="section-headline"></h2>
               <div
                     dangerouslySetInnerHTML={{
                       __html: post.body.childMarkdownRemark.html,
