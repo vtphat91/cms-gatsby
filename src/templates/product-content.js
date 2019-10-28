@@ -47,6 +47,7 @@ const ProductContent = ({data}) => {
 
   */
     const boxContent = get(data, 'contentfulBoxContentBodyTextNode.childMarkdownRemark');
+<<<<<<< HEAD
     const post = get(data, 'contentfulNavigationChild.productContentRefer');
     if(post != null ){
       return (
@@ -55,6 +56,24 @@ const ProductContent = ({data}) => {
           <section className="content_block clearfix wrapper">
               <section className="content left">
                 <h2 className="section-headline"></h2>
+=======
+   
+    const post = get(data, 'contentfulNavigationChild.productContentRefer');
+    console.log('post',post);
+    
+    return (
+
+      <Layout>
+        <section className="content_block clearfix wrapper">
+            <section className="content left">
+              <h2 className="section-headline"></h2>
+              <div
+                    dangerouslySetInnerHTML={{
+                      __html: post.body.childMarkdownRemark.html,
+                    }}/>
+            </section>    
+            <section className="sidebar right sticky fixed">
+>>>>>>> cf0001c3c8381af7481f2214d3151fa5c2450140
                 <div
                       dangerouslySetInnerHTML={{
                         __html: post.body.childMarkdownRemark.html,
