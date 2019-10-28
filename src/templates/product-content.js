@@ -47,30 +47,49 @@ const ProductContent = ({data}) => {
 
   */
     const boxContent = get(data, 'contentfulBoxContentBodyTextNode.childMarkdownRemark');
-    console.log('boxContent',boxContent);
     const post = get(data, 'contentfulNavigationChild.productContentRefer');
-    return (
+    if(post != null ){
+      return (
 
-      <Layout>
-        <section className="content_block clearfix wrapper">
-            <section className="content left">
-              <h2 className="section-headline">{post.title}</h2>
-              <div
-                    dangerouslySetInnerHTML={{
-                      __html: post.body.childMarkdownRemark.html,
-                    }}/>
-            </section>    
-            <section className="sidebar right sticky fixed">
+        <Layout>
+          <section className="content_block clearfix wrapper">
+              <section className="content left">
+                <h2 className="section-headline"></h2>
                 <div
-                    dangerouslySetInnerHTML={{
-                      __html: boxContent.html,
-                 }}/>
-            </section>      
-        </section>
+                      dangerouslySetInnerHTML={{
+                        __html: post.body.childMarkdownRemark.html,
+                      }}/>
+              </section>    
+              <section className="sidebar right sticky fixed">
+                  <div
+                      dangerouslySetInnerHTML={{
+                        __html: boxContent.html,
+                  }}/>
+              </section>      
+          </section>
 
-      </Layout>
+        </Layout>
+        )
+      }else{
+        return (
+          <Layout>
+            <section className="content_block clearfix wrapper">
+              <section className="content left">
+               <h2 className="section-headline"></h2>
+                <div>Updating ...</div>
+              </section>    
+               <section className="sidebar right sticky fixed">
+                 <div
+                     dangerouslySetInnerHTML={{
+                    __html: boxContent.html,
+                  }}/>
+              </section>      
+           </section>
+        </Layout>
+        )
+      }
 
-  )}
+}
 
 export default ProductContent;
 
