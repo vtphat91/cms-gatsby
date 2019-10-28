@@ -49,6 +49,8 @@ const ProductContent = ({data}) => {
     const boxContent = get(data, 'contentfulBoxContentBodyTextNode.childMarkdownRemark');
    
     const post = get(data, 'contentfulNavigationChild.productContentRefer');
+    console.log('post',post);
+    
     return (
 
       <Layout>
